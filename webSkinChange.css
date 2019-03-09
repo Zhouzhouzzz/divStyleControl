@@ -1,0 +1,55 @@
+body{
+    background-color: pink;
+}
+ul{
+    list-style: none;
+    display: flex;
+    width: 70px;
+    position: relative;
+    left: 50%;
+    margin-left: -250px;
+    padding-left: 0px
+}
+ul>li{
+    display: inline;
+    flex: 1
+}
+.common{
+    height: 6px;
+    width: 6px
+}
+#toRed{
+    background-color: red;
+    border:4px red solid
+}
+#toGreen{
+    background-color: green;
+    border:4px green solid
+}
+#toBlack{
+    background-color: black;
+    border:4px black solid
+}
+table,td{
+    border: 2px solid white;
+    border-collapse: collapse
+}
+table{
+    width: 500px;
+    left: 50%;
+    margin-left: -250px;
+    position: relative
+}
+td{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    background-color: red;
+    height: 20px 
+}
+td:hover{
+    text-decoration: underline;
+    /*手状光标*/
+    cursor: pointer
+}
