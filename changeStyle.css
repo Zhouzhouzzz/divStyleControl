@@ -1,0 +1,18 @@
+div{
+    width: 160px;
+    height: 160px;
+    border: 10px black solid;
+    padding: 10px;
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+}
+div:hover{
+    border: 10px red solid;
+    background-color: rgb(218, 209, 209);
+    color: red;
+    cursor: crosshair
+}
